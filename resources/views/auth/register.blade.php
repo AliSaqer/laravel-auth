@@ -20,7 +20,7 @@
         <button type="submit" class="btn mt-4">Register</button>
 
         @if ($errors->any())
-            <div class="alert alert-danger mt-4">
+            <div class="alert alert-danger mt-4 bg-red-50 text-red-500 p-4">
                 <h5 class="alert-heading">⚠️ Please fix the following errors:</h5>
                 <hr>
 
